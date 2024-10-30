@@ -1,26 +1,51 @@
 .omnie{
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  padding-top: 15px;
 }
 
 .doswiadczenie{
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.5);
+  border-radius: 10px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  padding-top: 15px;
 }
 
 .edukacja{
-  background-color: orange;
+  background-color: rgba(255, 125, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  padding-top: 15px;
 }
 
 .umiejetnosci{
-  background-color: purple;
+  background-color: rgba(128, 0, 111, 0.5);
+  border-radius: 10px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .kontakt{
-  background-color: green;
+  background-color: rgba(0, 255, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .footer{
   background-color: grey;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 20px !important;
   text-align: center;
+  padding-top: 15px;
 }
 
 .item{
@@ -29,5 +54,54 @@
   border-radius: 25px;
   padding: 1px 8px;
   margin: 4px;
-  background-color: aquamarine;
+  background-color: white;
+}
+
+.avatar{
+  background: rgb(0,44,177);
+  background: linear-gradient(90deg, rgba(0,44,177,0.7) 0%, rgba(211,0,255,0.7) 100%);
+  border-radius: 50%;
+}
+
+.avatar img{
+  border: transparent 20px solid;
+  border-radius: 50%;
+}
+
+.info p{
+  position: relative;
+  font-size: 17px;
+}
+
+.info p::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(0,44,177,0.7) 0%, rgba(211,0,255,0.7) 100%);
+}
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+  padding-left: 15px;
+}
+
+.cv, .gh, .in{
+  height: 42px;
+}
+
+.gh>a, .in>a{
+  padding-left: 0px;
+}
+
+.email:hover{
+  cursor: pointer;
+}
+
+.offcanvas {
+  width: 250px !important;
 }
