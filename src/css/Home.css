@@ -1,0 +1,33 @@
+.omnie{
+  background-color: red;
+}
+
+.doswiadczenie{
+  background-color: blue;
+}
+
+.edukacja{
+  background-color: orange;
+}
+
+.umiejetnosci{
+  background-color: purple;
+}
+
+.kontakt{
+  background-color: green;
+}
+
+.footer{
+  background-color: grey;
+  text-align: center;
+}
+
+.item{
+  display: inline-block;
+  border: black 1px solid;
+  border-radius: 25px;
+  padding: 1px 8px;
+  margin: 4px;
+  background-color: aquamarine;
+}
